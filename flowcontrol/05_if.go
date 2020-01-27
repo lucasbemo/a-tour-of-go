@@ -7,7 +7,7 @@ import (
 
 func sqrt(x  float64) string {
 	if x < 0 {
-		return sqrt(-x) + "1"
+		return sqrt(-x) + "i"
 	}
 	return fmt.Sprint(math.Sqrt(x))
 }
